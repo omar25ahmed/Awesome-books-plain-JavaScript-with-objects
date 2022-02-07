@@ -1,5 +1,5 @@
 {
-  "name": "Omar-Ragheb-First-Capstone",
+  "name": "awesome-books-plain-javascript-with-objects",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leopiresgoss/first-capstone.git"
+    "url": "git+https://github.com/omar25ahmed/Awesome-books-plain-JavaScript-with-objects.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leopiresgoss/first-capstone/issues"
+    "url": "https://github.com/omar25ahmed/Awesome-books-plain-JavaScript-with-objects/issues"
   },
-  "homepage": "https://github.com/leopiresgoss/first-capstone#readme",
+  "homepage": "https://github.com/omar25ahmed/Awesome-books-plain-JavaScript-with-objects#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
