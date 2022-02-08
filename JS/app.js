@@ -49,8 +49,7 @@ class showBooks {
     const row = document.createElement('tr');
 
     row.innerHTML = `
-        <td>${book.title}</td>
-        <td>by</td>
+        <td>${book.title} by </td>
         <td>${book.author}</td>
         <td><button class="delete">Remove book</button></td>
       `;
