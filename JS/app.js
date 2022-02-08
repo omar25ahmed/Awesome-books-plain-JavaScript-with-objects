@@ -50,7 +50,8 @@ class showBooks {
 
     row.innerHTML = `
         <td>${book.title}</td>
-        <td> by ${book.author}</td>
+        <td>by</td>
+        <td>${book.author}</td>
         <td><button class="delete">Remove book</button></td>
       `;
 
