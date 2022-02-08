@@ -84,9 +84,7 @@ document.querySelector('#form').addEventListener('submit', (e) => {
 });
 
 document.querySelector('#list').addEventListener('click', (e) => {
-
   showBooks.deleteBook(e.target);
-
 
   Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
 });

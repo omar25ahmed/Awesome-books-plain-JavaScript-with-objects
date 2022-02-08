@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border: 4px solid rgb(0, 0, 0);
+}
+
+.delete {
+  margin-left: 150px;
+}
+
+hr {
+  width: 100px;
+  margin: 40px 0;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+.submit {
+  align-self: flex-end;
+}
