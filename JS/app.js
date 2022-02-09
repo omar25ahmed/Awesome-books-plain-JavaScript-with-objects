@@ -71,6 +71,39 @@ class showBooks {
 
 document.addEventListener('DOMContentLoaded', showBooks.displayBooks);
 
+const showBookList = document.getElementById('nav-list');
+const showAddBook = document.getElementById('nav-add');
+const showContact = document.getElementById('nav-contact');
+
+function showList() {
+  document.getElementById('book-list').style.display = 'flex';
+  document.getElementById('add-new').style.display = 'none';
+  document.getElementById('contact').style.display = 'none';
+}
+function showAdd() {
+  document.getElementById('book-list').style.display = 'none';
+  document.getElementById('add-new').style.display = 'flex';
+  document.getElementById('contact').style.display = 'none';
+}
+function showContactPage() {
+  document.getElementById('book-list').style.display = 'none';
+  document.getElementById('add-new').style.display = 'none';
+  document.getElementById('contact').style.display = 'flex';
+}
+
+window.addEventListener('load', () => {
+  showList();
+});
+showBookList.addEventListener('click', () => {
+  showList();
+});
+showAddBook.addEventListener('click', () => {
+  showAdd();
+});
+showContact.addEventListener('click', () => {
+  showContactPage();
+});
+
 document.querySelector('#form').addEventListener('submit', (e) => {
   e.preventDefault();
 
@@ -89,3 +122,6 @@ document.querySelector('#list').addEventListener('click', (e) => {
 
   Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
 });
+
+const date = new Date();
+document.getElementById('date').innerHTML = date;
