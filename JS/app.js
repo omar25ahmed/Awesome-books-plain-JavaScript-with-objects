@@ -89,3 +89,6 @@ document.querySelector('#list').addEventListener('click', (e) => {
 
   Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
 });
+
+const date = new Date();
+document.getElementById('date').innerHTML = date;

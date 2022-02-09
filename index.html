@@ -8,33 +8,70 @@
     <title>Awesome Books</title>
 </head>
 <body>
-	<div class="container">
-		<header>
-			<h1>Awesome Books</h1>
-		</header>
-		<table>
-			<thead>
-				<tr class="line">
-				<th>Title</th>
-				<th>Author</th>
-				<th></th>
-				</tr>
-			</thead>
-			<tbody id="list"></tbody>
-		</table>
-		<hr>
-		<form id="form">
-			<div class="form-group">
-				<label for="title"></label>
-				<input type="text" id="title" required placeholder="Title">
+	<header class="top-header">
+		<div class="navbar">
+			<div class="nav-name">
+				<p>Awesome Books</p>
 			</div>
-			<div class="form-group">
-				<label for="author"></label>
-				<input type="text" id="author" required placeholder="Author">
-			</div>
-			<input type="submit" value="Add" class="submit">
-		</form>
+			<a href="#" class="nav-link" id="nav-list">List</a>
+			<a href="#" class="nav-link" id="nav-add">Add new</a>
+			<a href="#" class="nav-link" id="nav-contact">Contact</a>
+		</div>
+	</header>
+	<div class="date-container">
+		<p id="date"></p>
 	</div>
+	<section id="book-list">
+		<div class="container">
+			<header class="books-header">
+				<h1>Awesome Books</h1>
+			</header>
+			<table>
+				<thead>
+					<tr class="line">
+					<th>Title</th>
+					<th>Author</th>
+					<th></th>
+					</tr>
+				</thead>
+				<tbody id="list"></tbody>
+			</table>
+			</div>
+	</section>
+	<section id="add-new">
+		<div class="container">
+			<h2>Add a new</h2>
+			<form id="form">
+				<div class="form-group">
+					<label for="title"></label>
+					<input type="text" id="title" required placeholder="Title">
+				</div>
+				<div class="form-group">
+					<label for="author"></label>
+					<input type="text" id="author" required placeholder="Author">
+				</div>
+				<input type="submit" value="Add" class="submit">
+			</form>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<header class="contact-header">
+				<h1>Contact information</h1>
+			</header>
+			<div class="info">
+				<p>Do you have any questions or you just want to say "hello"? You can reach out to us!</p>
+				<ul class="info-list">
+					<li class="info-item">Our e-mail mail@mail.com</li>
+					<li class="info-item">Our phone number: 00435663442</li>
+					<li class="info-item">Our address: Streetname 22, 84503 City, Country</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<h2>Copyright...</h2>
+	</footer>
 	<script src="/JS/app.js"></script>
 </body>
 </html>
