@@ -40,7 +40,8 @@ This project is made by me and Thigao Ponce we are creating website have a feutu
 👤 **Omar Ragheb**
 
 - - GitHub: [@omar25ahmed](https://github.com/omar25ahmed)
-👤 **Thigao Ponce**
+
+👤 **Thiago Ponce**
 - - GitHub: [Thi-Ponce](https://github.com/Thi-Ponce)
 
 
