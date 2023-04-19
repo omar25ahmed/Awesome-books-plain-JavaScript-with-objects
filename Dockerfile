@@ -10,6 +10,7 @@ COPY . /var/www/html/
 # Switch to /var/www/html/
 WORKDIR /var/www/html/
 
+# Remove default index.html file
 RUN rm /var/www/html/index.nginx-debian.html
 
 # Expose port 80 for web traffic
